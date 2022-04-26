@@ -1,0 +1,16 @@
+{
+  "include": [
+    "node_modules/cypress",
+    "cypress/**/*.ts",
+    "cypress/locators/item.js", 
+    "cypress/locators/page.js"  
+  ],
+  "compilerOptions": {
+    "types": ["cypress", "node"],
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "resolveJsonModule": true,
+  }
+}
